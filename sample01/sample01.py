@@ -9,7 +9,7 @@ ANSWER_GEN_MAX = 100000
 
 def read_csv(data=False, teacher=False):
     result = []
-    with open(os.path.dirname(os.path.abspath(__file__)) + "/data.csv", "r") as f:
+    with open(os.path.dirname(os.path.abspath(__file__)) + "/../data/data.csv", "r") as f:
         reader = csv.reader(f)
         _ = next(reader)
 
